@@ -1,4 +1,9 @@
-//! General purpose algorithms to generate unique identifiers.
+//! A library for different methods of allocating unique identifiers efficiently.
+//!
+//! Provided methods:
+//!
+//! * [Slab] - Allocates id in a slab-like manner, handling automatic
+//!   reclamation by keeping a record of which identifier slot to allocate next.
 //!
 //! # Examples
 //!
